@@ -40,7 +40,7 @@
 2. Open the app's settings
 3. Switch to the `Appearance` tab
 4. Click on the most right button next to the color scheme text
-4. Select the theme file you want to use
+4. Select the theme file from `themes/` you want to use
 
 ## 💝 Thanks to
 

@@ -28,7 +28,7 @@ ec help rgb:e5c890
 ec pop rgb:85c1dc
 ec diff.unknown rgb:ca9ee6
 ec mov rgb:b5bfe2
-#~highlightPC rgb:ff571a07
+#~highlightPC rgb:ffef9f76
 ec floc rgb:8caaee
 ec diff.unmatch rgb:e5c890
 #~gui.navbar.sym rgb:ffef9f76
@@ -52,16 +52,16 @@ ec usrcmt rgb:ef9f76
 ec func_var_type rgb:ef9f76
 #~gui.disass_selected rgb:ff303446
 ec fname rgb:ef9f76
-ec nop rgb:a37acc
+ec nop rgb:ca9ee6
 ec diff.new rgb:e78284
 ec ret rgb:ea999c
 ec other rgb:838ba7
-#~gui.overview.border rgb:3299d1db
+#~gui.overview.border rgb:ff8caaee
 #~gui.dataoffset rgb:ffffffff
 #~gui.navbar.empty rgb:ff51576d
 ec graph.true rgb:a6d189
 ec fline rgb:99d1db
-#~gui.overview.fill rgb:28ffffff
+#~gui.overview.fill rgb:ff81c8be
 ec diff.match rgb:838ba7
 ec math rgb:85c1dc
 ec call rgb:ef9f76

@@ -1,0 +1,74 @@
+---
+whiskers:
+  version: 2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}"
+---
+ec jmp rgb:{{ yellow.hex }}
+ec creg rgb:{{ peach.hex }}
+ec b0x00 rgb:{{ overlay1.hex }}
+#~gui.background rgb:ff{{ base.hex }}
+ec b0x7f rgb:{{ overlay0.hex }}
+#~gui.imports rgb:ff{{ blue.hex }}
+ec trap rgb:{{ maroon.hex }}
+#~gui.alt_background rgb:ff{{ base.hex }}
+ec func_var_addr rgb:{{ maroon.hex }}
+#~gui.navbar.seek rgb:ff{{ maroon.hex }}
+ec input rgb:{{ overlay1.hex }}
+ec b0xff rgb:{{ subtext0.hex }}
+ec num rgb:{{ maroon.hex }}
+ec btext rgb:{{ sapphire.hex }}
+ec gui.cflow rgb:{{ yellow.hex }}
+#~gui.overview.node rgb:ff{{ surface1.hex }}
+ec flag rgb:{{ sapphire.hex }}
+ec cjmp rgb:{{ yellow.hex }}
+#~gui.navbar.err rgb:ff{{ sapphire.hex }}
+ec func_var rgb:{{ teal.hex }}
+ec swi rgb:{{ maroon.hex }}
+#~wordHighlight rgb:ff{{ surface0.hex }}
+ec offset rgb:{{ peach.hex }}
+ec bin rgb:{{ sapphire.hex }}
+#~lineHighlight rgb:ff{{ surface2.hex }}
+ec crypto rgb:{{ blue.hex }}
+ec help rgb:{{ yellow.hex }}
+ec pop rgb:{{ sapphire.hex }}
+ec diff.unknown rgb:{{ mauve.hex }}
+ec mov rgb:{{ subtext1.hex }}
+#~highlightPC rgb:ff{{ peach.hex }}
+ec floc rgb:{{ blue.hex }}
+ec diff.unmatch rgb:{{ yellow.hex }}
+#~gui.navbar.sym rgb:ff{{ peach.hex }}
+#~gui.main rgb:ff{{ green.hex }}
+ec graph.false rgb:{{ red.hex }}
+#~gui.navbar.code rgb:ff{{ green.hex }}
+ec cmp rgb:{{ sapphire.hex }}
+#~angui.navbar.str rgb:ff000000
+ec flow2 rgb:{{ subtext1.hex }}
+#~gui.navbar.pc rgb:ff{{ teal.hex }}
+ec comment rgb:{{ teal.hex }}
+ec graph.ujump rgb:{{ sky.hex }}
+ec push rgb:{{ sapphire.hex }}
+ec ujmp rgb:{{ yellow.hex }}
+#~gui.breakpoint_background rgb:ff{{ red.hex }}
+#~gui.border rgb:ff{{ surface2.hex }}
+ec flow rgb:{{ yellow.hex }}
+ec reg rgb:{{ subtext1.hex }}
+ec ucall rgb:{{ sapphire.hex }}
+ec usrcmt rgb:{{ peach.hex }}
+ec func_var_type rgb:{{ peach.hex }}
+#~gui.disass_selected rgb:ff{{ base.hex }}
+ec fname rgb:{{ peach.hex }}
+ec nop rgb:{{ mauve.hex }}
+ec diff.new rgb:{{ red.hex }}
+ec ret rgb:{{ maroon.hex }}
+ec other rgb:{{ overlay1.hex }}
+#~gui.overview.border rgb:ff{{ blue.hex }}
+#~gui.dataoffset rgb:ffffffff
+#~gui.navbar.empty rgb:ff{{ surface1.hex }}
+ec graph.true rgb:{{ green.hex }}
+ec fline rgb:{{ sky.hex }}
+#~gui.overview.fill rgb:ff{{ teal.hex }}
+ec diff.match rgb:{{ overlay1.hex }}
+ec math rgb:{{ sapphire.hex }}
+ec call rgb:{{ peach.hex }}
